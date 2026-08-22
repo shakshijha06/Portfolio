@@ -2,9 +2,16 @@
 
 > Personal portfolio website showcasing my journey, projects, technical skills, research interests, and experience in AI engineering and software development.
 
-🌐 **Live Portfolio:** Coming Soon  
 
 <p>
+<a href="https://portfolio-roan-omega-98ggkj9jfo.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Live-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://github.com/shakshijha06">
+<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
+</a>
+
 <a href="https://linkedin.com/in/shakshijha0610">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
@@ -183,10 +190,23 @@ The layout, navigation, project cards, buttons, and content sections adapt to di
 
 If you'd like to connect, collaborate, or discuss an opportunity, you can reach me through:
 
-* **GitHub:** https://github.com/shakshijha06
-* **LinkedIn:** https://www.linkedin.com/in/shakshijha0610
-* **Email:** Add your email
-* **Portfolio:** Coming Soon
+<p>
+<a href="https://portfolio-roan-omega-98ggkj9jfo.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Live-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://github.com/shakshijha06">
+<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://linkedin.com/in/shakshijha0610">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:shakshijha06@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"/>
+</a>
+</p>
 
 ---
 
