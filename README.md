@@ -3,9 +3,16 @@
 > Personal portfolio website showcasing my journey, projects, technical skills, research interests, and experience in AI engineering and software development.
 
 🌐 **Live Portfolio:** Coming Soon  
-💻 **GitHub:** https://github.com/shakshijha06  
-🔗 **LinkedIn:** https://www.linkedin.com/in/shakshijha0610/
----
+
+<p>
+<a href="https://linkedin.com/in/shakshijha0610">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:shakshijha06@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail"/>
+</a>
+</p>
 
 ## ✨ About
 
