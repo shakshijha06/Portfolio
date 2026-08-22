@@ -20,13 +20,12 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
-  const hireMeMailto = `mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
-
+const hireMeMailto = `mailto:shakshi.jha2024@uem.edu.in?subject=Hiring Inquiry – Portfolio&body=Hello Shakshi Jha,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
   return (
     <nav 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isOpen 
-          ? 'bg-[#ff2a2a] py-4'
+          ? 'bg-[#1a1a2e]/95 backdrop-blur-xl py-4'
           : isScrolled 
             ? 'bg-transparent py-4' 
             : 'bg-transparent py-6'
@@ -36,7 +35,7 @@ const Navbar = () => {
         
         {/* Left Side: Logo/Name */}
         <div className="flex items-center">
-          <a href="#" className="text-white text-2xl font-black tracking-tight whitespace-nowrap">
+          <a href="#" className="text-[#f2e9e4] text-2xl font-black tracking-tight whitespace-nowrap">
             {personalInfo.brandName}<span className="text-red-500">.</span>
           </a>
         </div>
@@ -47,7 +46,7 @@ const Navbar = () => {
             <a 
               key={link} 
               href={`#${link.toLowerCase()}`}
-              className="text-white/80 hover:text-white font-medium relative group transition-colors duration-300"
+              className="text-[#f2e9e4] hover:text-[#c9ada7] font-medium relative group transition-colors duration-300"
             >
               {link}
               {/* Smooth hover underline */}
@@ -55,17 +54,14 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-
-        {/* Right Side: CTA Button */}
-        <div className="hidden md:block">
-          <a 
-            href={hireMeMailto}
-            className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
-          >
-            Hire Me
-          </a>
-        </div>
-
+<a 
+  href={`https://mail.google.com/mail/?view=cm&to=${personalInfo.emails.primary}&su=Job%20Opportunity%20-%20Portfolio%20Inquiry&body=Hi%20Shakshi%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity%20with%20you.%0A%0ABest%20regards%2C`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-2.5 rounded-full bg-[#4a4e69]/30 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md"
+>
+  Hire Me
+</a>
         {/* Mobile Hamburger Menu Icon */}
         <div className="md:hidden flex items-center">
           <button 
@@ -86,7 +82,7 @@ const Navbar = () => {
       {/* Mobile Slide-Down Menu */}
       <div 
         className={`md:hidden absolute top-full left-0 w-full transition-all duration-300 overflow-hidden ${
-          isOpen ? 'max-h-96 py-4 opacity-100 bg-[#ff2a2a] shadow-2xl' : 'max-h-0 opacity-0 bg-transparent'
+          isOpen ? 'max-h-96 py-4 opacity-100 bg-[#c9ada7] shadow-2xl' : 'max-h-0 opacity-0 bg-transparent'
         }`}
       >
         <div className="flex flex-col px-6 space-y-4">
@@ -104,7 +100,7 @@ const Navbar = () => {
              <a 
                href={hireMeMailto}
                onClick={() => setIsOpen(false)} 
-               className="inline-block px-6 py-3 rounded-full bg-white text-[#ff2a2a] font-black hover:bg-black hover:text-white transition-colors w-full text-center shadow-lg"
+               className="inline-block px-6 py-3 rounded-full bg-white text-[#c9ada7] font-black hover:bg-black hover:text-white transition-colors w-full text-center shadow-lg"
              >
                Hire Me
              </a>

@@ -32,7 +32,7 @@ const TagCard = ({ number, title, text, className, aosDelay, aosType, pathLength
       data-aos={aosType || "fade-up"} 
       data-aos-delay={aosDelay}
       className={`w-72 sm:w-80 rounded-[2rem] p-2 relative flex flex-col items-center hover:scale-[1.02] transition-all duration-700 z-10 ${className} ${
-        isActive ? 'bg-[#ff2a2a] border-red-400 shadow-[0_20px_50px_rgba(255,42,42,0.4)]' : 'bg-white border border-gray-200 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]'
+        isActive ? 'bg-[#c9ada7] border-red-400 shadow-[0_20px_50px_rgba(255,42,42,0.4)]' : 'bg-white border border-gray-200 shadow-[0_15px_40px_rgba(0,0,0,0.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]'
       }`}
     >
       {/* The hole punch */}
@@ -76,7 +76,7 @@ const Services = () => {
     <section 
       id="process"
       ref={containerRef}
-      className="bg-white pt-24 pb-32 px-6 md:px-12 w-full relative overflow-hidden font-sans bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:80px_80px]"
+      className="bg-white pt-24 pb-32 px-6 md:px-12 w-full relative overflow-hidden font-serif bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:80px_80px]"
     >
       <div className="max-w-6xl mx-auto relative md:h-[1350px]">
         

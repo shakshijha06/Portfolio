@@ -20,7 +20,7 @@ const ProjectCard = ({ project, aosDelay }) => (
     className={`relative rounded-2xl p-[1px] group transition-all duration-500 ${
       project.isFlagship 
         ? 'bg-gradient-to-br from-red-500/50 via-white/10 to-red-500/30 hover:from-red-500 hover:via-red-400/30 hover:to-red-500/60' 
-        : 'bg-white/10 hover:bg-white/20'
+        : 'bg-[#4a4e69]/30 hover:bg-white/20'
     }`}
   >
     <div className={`rounded-2xl p-6 md:p-8 h-full backdrop-blur-md transition-all duration-500 ${
@@ -51,7 +51,7 @@ const ProjectCard = ({ project, aosDelay }) => (
         {project.techTags.map((tag) => (
           <span 
             key={tag}
-            className="px-3 py-1 text-xs font-bold text-white/70 bg-white/5 rounded-full border border-white/10 hover:bg-red-500/20 hover:border-red-500/30 hover:text-red-300 transition-all duration-300 cursor-default"
+            className="px-3 py-1 text-xs font-bold text-white/70 bg-white/5 rounded-full border border-white/10 hover:bg-[#9a8c98]/20 hover:border-[#9a8c98]/30 hover:text-[#c9ada7] transition-all duration-300 cursor-default"
           >
             {tag}
           </span>
@@ -66,7 +66,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             href={project.links.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white hover:text-black transition-all duration-300 group/btn"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#4a4e69]/30 border border-white/20 text-white text-sm font-semibold hover:bg-white hover:text-black transition-all duration-300 group/btn"
           >
             <GitHubIcon />
             GitHub
@@ -81,7 +81,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             rel={project.links.demo ? "noopener noreferrer" : undefined}
             className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
               project.links.demo 
-                ? 'bg-[#ff2a2a] text-white hover:bg-red-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)]' 
+                ? 'bg-[#c9ada7] text-[#22223b] hover:bg-[#9a8c98] hover:shadow-[0_0_20px_rgba(255,42,42,0.4)]' 
                 : 'bg-white/5 text-white/40 border border-white/10 cursor-not-allowed'
             }`}
           >
@@ -96,7 +96,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             href={project.links.frontendDemo}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#ff2a2a] text-white text-sm font-semibold hover:bg-red-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)] transition-all duration-300"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#c9ada7] text-white text-sm font-semibold hover:bg-red-600 hover:shadow-[0_0_20px_rgba(255,42,42,0.4)] transition-all duration-300"
           >
             <ExternalLinkIcon />
             Frontend Demo
@@ -109,8 +109,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             href={project.links.backendApi}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-sm font-semibold hover:bg-white/20 transition-all duration-300"
-          >
+className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#4a4e69]/30 border border-white/20 text-white text-sm font-semibold hover:bg-white/20 transition-all duration-300"          >
             <ExternalLinkIcon />
             Backend API
           </a>
@@ -122,16 +121,16 @@ const ProjectCard = ({ project, aosDelay }) => (
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-[#0a0a0a] pt-24 pb-32 px-6 md:px-12 w-full relative overflow-hidden font-sans bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:80px_80px]">
+    <section id="projects" className="bg-[#1a1a2e] pt-24 pb-32 px-6 md:px-12 w-full relative overflow-hidden font-serif bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:80px_80px]">
       <div className="max-w-6xl mx-auto">
         
         {/* Header */}
         <div data-aos="fade-up" className="mb-16 md:mb-20">
           <div className="inline-block border border-white/20 rounded-full px-5 py-1.5 text-sm text-white/60 font-bold mb-8 shadow-sm bg-white/5 backdrop-blur-sm">
-            Featured Projects
+           Projects & Experiments
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] mb-6 tracking-tight">
-            Work that speaks <br className="hidden md:block" />for itself
+            Exploring. Building. Improving.<br className="hidden md:block" />
           </h2>
           <p className="text-white/50 text-base md:text-lg max-w-lg font-medium leading-relaxed">
             A selection of projects that showcase my expertise in full-stack development and modern architecture.

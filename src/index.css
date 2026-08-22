@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+:root {
+  --bg-primary: #050505;
+  --text-primary: #f8fafc;
+  --text-muted: #a1a1aa;
+
+  --accent: #c9ada7;
+  --accent-secondary: #06b6d4;
+
+  --glass-bg: rgba(255,255,255,0.08);
+  --border: rgba(255,255,255,0.15);
+}
+
 @theme {
   --animate-float: float 6s ease-in-out infinite;
 
@@ -12,15 +24,16 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  color: #fff;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #f6bebe;
+  font-family: Georgia, 'Times New Roman', serif;
 }
-
+h1, h2, h3, h4 {
+  font-family: Georgia, 'Times New Roman', serif;
+}
 [data-aos="drop-bounce"] {
   opacity: 0;
 }

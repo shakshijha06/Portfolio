@@ -1,355 +1,451 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Shakshi Jha's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
-
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Shakshi Jha",
+  firstName: "Shakshi",
+brandName: "SHAKSHI JHA",
+  title: "Computer Science Undergraduate",
+  location: "Kolkata, India",
+  phone: "+91 9073545607",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "shakshijha06@gmail.com",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Computer Science undergraduate passionate about building AI-powered full-stack applications. I enjoy combining modern web technologies with Large Language Models (LLMs) to solve real-world problems while continuously learning new skills and growing as a software developer.",
+  resumeUrl: "/Resume.pdf",
 };
-
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/shakshijha06",
+  linkedin: "https://linkedin.com/in/shakshijha0610",
+  email: "mailto:shakshijha06@gmail.com",
 };
-
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Shakshi",
+
+  titleHighlight: "Building AI-Powered Full-Stack Applications",
+
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
-  ctaPrimary: { text: "View My Work", href: "#projects" },
+    "Computer Science undergraduate passionate about creating practical software solutions with AI and modern web technologies.",
+
+  ctaPrimary: {
+    text: "View My Work",
+    href: "#projects",
+  },
+
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href:
+      "mailto:shakshijha06@gmail.com?subject=Hiring Inquiry&body=Hello Shakshi,%0D%0A%0D%0AI came across your portfolio and would love to connect with you.%0D%0A%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+
+  ctaResume: {
+    text: "Download Resume",
+    href: "/Resume.pdf",
+  },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+
+  bio: `I'm <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Shakshi Jha</span>, a Computer Science undergraduate based in Kolkata, India. I enjoy building AI-powered full-stack applications, exploring Large Language Models (LLMs), and creating software that solves real-world problems while continuously learning and improving my skills.`,
+
+  techStack: [
+    "Python",
+    "Java",
+    "JavaScript",
+    "React",
+    "FastAPI",
+    
+  ],
 };
 
 export const skillsContent = {
-  badge: "My Process",
-  heading: "Here's how I turn ideas into real-world applications",
+  badge: "My Approach",
+
+  heading: "How I Build",
+
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "I turn ideas into practical applications through research, thoughtful planning, continuous development, and constant learning.",
+
   cards: [
     {
       number: "01",
       title: "Research",
-      text: "I start by understanding goals, user requirements, and technical constraints to lay a rock-solid foundation for the project.",
+      text: "Understand the problem, user needs, and choose the right technologies.",
     },
+
     {
       number: "02",
-      title: "Design",
-      text: "Crafting clean architecture, intuitive interfaces, and pixel-perfect wireframes that guarantee an engaging and accessible user experience.",
+      title: "Plan",
+      text: "Design the architecture, user experience, and development roadmap.",
     },
+
     {
       number: "03",
-      title: "Develop",
-      text: "Building scalable backends and responsive frontends using modern tech stacks and best practices.",
+      title: "Build",
+      text: "Develop responsive applications with clean, maintainable code.",
     },
+
     {
       number: "04",
-      title: "Deploy",
-      text: "Rigorous testing, performance optimization, and seamless deployment to cloud infrastructure, followed by ongoing support.",
+      title: "Improve",
+      text: "Test, refine, learn from feedback, and keep improving every project.",
     },
   ],
-  endText: "Ready to ship!",
+
+  endText: "Always learning. Always building.",
 };
 
 // Brand New Technical Skills Data
 export const technicalSkills = {
   categories: [
-    {
-      title: "Programming Languages",
-      skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
-      ]
-    },
-    {
-      title: "Full Stack",
-      skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
-      ]
-    },
-    {
-      title: "Backend",
-      skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
-      ]
-    },
-    {
-      title: "Databases",
-      skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
-      ]
-    },
-    {
-      title: "Tools & Automation",
-      skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
-      ]
-    },
-    {
-      title: "Computer Science Concepts",
-      skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
-      ]
-    }
-  ]
-};
+  {
+    title: "Programming Languages",
+    skills: [
+      { name: "Python", level: 75 },
+      { name: "Java", level: 65 },
+            { name: "C", level: 65 },
 
-// Brand New Content Creation Data
-export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
+      { name: "JavaScript", level: 65 }
+    ]
+  },
+  {
+    title: "Frontend Development",
+    skills: [
+      { name: "HTML", level: 80 },
+      { name: "CSS", level: 75 },
+      { name: "React", level: 60 }
+    ]
+  },
+  {
+    title: "Backend Development",
+    skills: [
+      { name: "FastAPI", level: 55 },
+      { name: "Node.js", level: 55 },
+      { name: "Firebase", level: 70 }
+    ]
+  },
+  {
+    title: "AI & Machine Learning",
+    skills: [
+      { name: "Prompt Engineering", level: 60 },
+      { name: "OpenAI API", level: 55 },
+      { name: "Scikit-learn", level: 50 },
+      { name: "LLMs", level: 50 }
+    ]
+  },
+  {
+    title: "Developer Tools",
+    skills: [
+      { name: "Git & GitHub", level: 80 },
+      { name: "VS Code", level: 85 },
+      { name: "Vercel", level: 85 },
+      { name: "Render", level: 80 },
+      
+    ]
+  }
+]};
+export const hobbies = {
+  badge: "Beyond Code",
+
+  heading: "Things I Love Outside Technology",
+
+  description:
+    "Apart from building software, I enjoy creative activities that help me relax and explore new ideas.",
+
   categories: [
     {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
+      title: "Cooking",
+      icon: "🍳",
+      description:
+        "I enjoy experimenting with recipes and exploring different cuisines.",
     },
     {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
+      title: "Drawing",
+      icon: "🎨",
+      description:
+        "Drawing allows me to express creativity and take a break from technical work.",
     },
-    {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
-    },
-    {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
-    }
-  ]
+  ],
 };
-
-// Brand New Leadership Data
-export const leadershipList = [
-  {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
-  },
-  {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
-    badge: "Leadership"
-  },
-  {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
-  },
-  {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
-  },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
-  }
-];
 
 // Brand New Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
-  },
-  {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
-  },
-  {
-    organization: "CollegeTips.in",
+    organization: "InAmigos Foundation",
     role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+    duration: "July 2026 – Present",
+    mode: "Hybrid",
+
+    skills: [
+      "Developing responsive NGO awareness websites",
+      "Building reusable frontend components",
+      "Improving UI/UX and accessibility",
+      "Collaborating with the development team"
+    ],
+
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Vercel"
+    ],
+
+    description:
+      "Developing responsive and accessible web interfaces for the organization's digital presence while collaborating with the development team to improve user experience and functionality."
+  },
+
+
+  {
+    organization:
+      "IEDC Summer Internship 2026, CSE Data Science, IEM Kolkata",
+
+    role: "AI Research Intern",
+
+    duration: "May 15, 2026 – July 3, 2026",
+
+    mode: "Hybrid",
+
+    skills: [
+      "Developed Adaptive Reasoning Router (ARR)",
+      "Designed training-free multi-persona reasoning framework",
+      "Experimented with LLM reasoning strategies",
+      "Collaborated on AI research and evaluation"
+    ],
+
+    tech: [
+      "Python",
+      "Transformers",
+      "Large Language Models"
+    ],
+
+    description:
+      "Worked as part of a research team to develop the Adaptive Reasoning Router (ARR), a training-free multi-persona reasoning framework that dynamically selects specialized reasoning strategies using diagnostic feedback to improve large language model reasoning."
+  },
+
+
+  {
+    organization: "CSE IDC, IEM Kolkata",
+
+    role: "Deep Learning Research Intern",
+
+    duration: "May 18, 2026 – July 25, 2026",
+
+    mode: "Hybrid",
+
+    skills: [
+      "Built MRI-based brain tumor classification pipeline",
+      "Applied transfer learning using EfficientNetB0",
+      "Implemented explainable AI visualization methods",
+      "Evaluated model performance using ML metrics"
+    ],
+
+    tech: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "EfficientNetB0",
+      "Scikit-learn"
+    ],
+
+    description:
+      "Developed a deep learning pipeline for brain tumor classification from MRI images using transfer learning with EfficientNetB0 and evaluated explainability through Grad-CAM, Grad-CAM++, Score-CAM, and Layer-CAM visualizations."
   }
 ];
-
 // Brand New Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  {
+    name: "Problem Solving",
+    icon: "🧩",
+    desc: "Breaking down complex problems and designing efficient technical solutions."
+  },
+  {
+    name: "Research Mindset",
+    icon: "🔬",
+    desc: "Exploring AI concepts, reading papers, and experimenting with emerging technologies."
+  },
+  {
+    name: "Team Collaboration",
+    icon: "🤝",
+    desc: "Working effectively with teams through communication, feedback, and shared goals."
+  },
+  {
+    name: "Adaptability",
+    icon: "⚡",
+    desc: "Quickly learning new tools, frameworks, and technologies in fast-changing environments."
+  },
+  {
+    name: "Communication",
+    icon: "💬",
+    desc: "Clearly presenting ideas, technical concepts, and project outcomes."
+  },
+  {
+    name: "Leadership",
+    icon: "🚀",
+    desc: "Taking ownership of tasks and coordinating work towards project goals."
+  },
+  {
+    name: "Attention to Detail",
+    icon: "🎯",
+    desc: "Building reliable solutions by focusing on quality and accuracy."
+  },
+  {
+    name: "Continuous Learning",
+    icon: "📚",
+    desc: "Consistently improving skills through projects, research, and practice."
+  }
 ];
-
 export const projects = [
   {
-    id: "foodmesh",
+    id: "healthbirch",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "AI Healthcare Platform",
+    title: "HEALTHBIRCH",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
+      "An AI-assisted telemedicine platform designed to improve healthcare accessibility through digital consultations, patient onboarding, intelligent triage workflows, appointment management, and secure medical record handling. The platform combines a modern React interface with FastAPI services, Firebase infrastructure, and Gemini-powered AI assistance.",
     techTags: [
       "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
+      "Vite",
+      "Tailwind CSS",
+      "FastAPI",
+      "Python",
+      "Firebase",
+      "Firestore",
+      "Gemini API",
+      "Vercel",
+      "Render",
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: "https://github.com/shakshijha06/healthbirch",
+      demo: "https://healthbirch.vercel.app/",
+    },
+    isFlagship: false,
+  },
+
+  {
+    id: "thrivevo",
+    number: "02",
+    badge: "AI Learning Platform",
+    title: "Thrivevo",
+    description:
+      "A smart AI-powered study planning and productivity platform designed to help students organize subjects, manage study missions, track learning progress, and build effective preparation routines through a personalized experience.",
+    techTags: [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Framer Motion",
+      "Vercel",
+    ],
+    links: {
+      github: "https://github.com/shakshijha06/thrivevo",
+      demo: "https://thrivevo.vercel.app/",
+    },
+    isFlagship: false,
+  },
+
+  {
+    id: "aspira",
+    number: "03",
+    badge: "Multi-Agent AI System • Group Project • Ongoing",
+    title: "Aspira",
+    description:
+      "A multi-agent AI examination platform developed as a group project. The system focuses on personalized assessment generation, intelligent evaluation, and adaptive learning support using AI-driven workflows.",
+    techTags: [
+      "React",
+      "FastAPI",
+      "AI Agents",
+      "Firebase",
+      "Python",
+    ],
+    links: {
+      github: null,
       demo: null,
     },
-    isFlagship: true,
-  },
-  {
-    id: "karigar",
-    number: "02",
-    badge: null,
-    title: "Karigar",
-    description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
-    links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
-    },
     isFlagship: false,
   },
+
   {
-    id: "sentiment-analysis",
-    number: "03",
-    badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    id: "cognition-lab",
+    number: "04",
+    badge: "AI Research Platform • Ongoing",
+    title: "Cognition Lab",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "An AI-powered Research Intelligence Platform designed to transform research papers into structured knowledge schemas. The platform aims to automate paper understanding by extracting methodologies, datasets, contributions, limitations, and enabling cross-paper analysis through AI-assisted workflows.",
+    techTags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Python",
+      "Firebase",
+      "Firestore",
+      "Gemini API",
+      "Pydantic",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Three.js",
+    ],
     links: {
-      github: "#", // Update when available
+      github: null,
+      demo: null,
     },
     isFlagship: false,
+    status: "Ongoing",
   },
 ];
-
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
+      name: "Introduction to Generative AI",
+      issuer: "Google Cloud Skills Boost",
+      icon: "🤖",
+    },
+    {
+      name: "Google Cloud Fundamentals: Core Infrastructure",
+      issuer: "Google Cloud Skills Boost",
       icon: "☁️",
     },
     {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
+      name: "Build Serverless Applications",
+      issuer: "Microsoft",
+      icon: "⚡",
     },
     {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
-    },
-    {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
+      name: "Data Analytics Job Simulation",
+      issuer: "Deloitte (Forage)",
       icon: "📊",
     },
   ],
+
   viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+    "https://drive.google.com/drive/folders/11I-bnn1G0UwIt5U9DPCsViCLWUBBrJm-?usp=sharing",
 };
 
 export const education = {
   degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  institution: "University of Engineering and Management (UEM), Kolkata",
+  cgpa: "8.40",
+  graduation: "2028",
+  twelfth: "ISC (Science) – 90%",
+  tenth: "ICSE – 88%",
+  school: "Calcutta Public School, Kolkata",
 };
-
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "AI & Software Development",
+    "React · Python · Machine Learning",
+    "Building Intelligent Applications",
   ],
+
   credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+
+  copyright: `© ${new Date().getFullYear()} Shakshi Jha | Built with React`,
 };
 
 // EmailJS Configuration
